@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b54fc3d3-0639-4616-9f2d-79fbf677f682" name="Default Changelist" comment="" />
+    <list default="true" id="b54fc3d3-0639-4616-9f2d-79fbf677f682" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/animate_assembly.py" beforeDir="false" afterPath="$PROJECT_DIR$/animate_assembly.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main_peg_in_hole_dual_arm.py" beforeDir="false" afterPath="$PROJECT_DIR$/main_peg_in_hole_dual_arm.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main_sigma_vs_objective.py" beforeDir="false" afterPath="$PROJECT_DIR$/main_sigma_vs_objective.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main_statistics_cylinder.py" beforeDir="false" afterPath="$PROJECT_DIR$/main_statistics_cylinder.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/robot_parameters.py" beforeDir="false" afterPath="$PROJECT_DIR$/robot_parameters.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,9 +60,135 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="-1647751316">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="6" />
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.25" value="2" />
+          <entry key="project.open.time.26" value="1" />
+          <entry key="project.open.time.30" value="2" />
+          <entry key="project.open.time.34" value="1" />
+          <entry key="project.open.time.38" value="1" />
+          <entry key="project.open.time.6" value="1" />
+          <entry key="project.opened" value="9" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="py" value="18" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Python" value="18" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="py" value="2210" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="Python" value="2210" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/main_peg_in_hole_dual_arm.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="703">
+              <caret line="39" column="50" selection-start-line="39" selection-start-column="50" selection-end-line="39" selection-end-column="50" />
+              <folding>
+                <element signature="e#0#33#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/main_select_peg_pose.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="19">
+              <caret line="1" selection-start-line="1" selection-end-line="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/main_statistics_cylinder.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-152">
+              <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
+              <folding>
+                <element signature="e#0#19#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/animate_assembly.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="44" column="23" selection-start-line="44" selection-start-column="19" selection-end-line="44" selection-end-column="23" />
+              <folding>
+                <element signature="e#0#18#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/main_sigma_vs_objective.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1843">
+              <caret line="99" selection-start-line="99" selection-end-line="99" />
+              <folding>
+                <element signature="e#0#33#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test_cylindrical_peg.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1083">
+              <caret line="60" column="64" selection-start-line="60" selection-start-column="64" selection-end-line="60" selection-end-column="64" />
+              <folding>
+                <element signature="e#0#19#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/kinematic_utilities.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="4541">
+              <caret line="243" column="4" selection-start-line="243" selection-start-column="4" selection-end-line="243" selection-end-column="4" />
+              <folding>
+                <element signature="e#0#18#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/robot_parameters.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="266">
+              <caret line="14" column="26" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -71,15 +204,17 @@
       <find>peg_cross_side</find>
       <find>legend</find>
       <find>c_val</find>
+      <find>animation</find>
     </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/kinematic_utilities.py" />
-        <option value="$PROJECT_DIR$/animate_assembly.py" />
         <option value="$PROJECT_DIR$/main_statistics_new.py" />
-        <option value="$PROJECT_DIR$/main_statistics_cylinder.py" />
         <option value="$PROJECT_DIR$/test2.py" />
         <option value="$PROJECT_DIR$/test3.py" />
         <option value="$PROJECT_DIR$/main_statistics_varying_sigma_clearance.py" />
@@ -87,21 +222,26 @@
         <option value="$PROJECT_DIR$/collision_lib.py" />
         <option value="$PROJECT_DIR$/main_statistics_square_varying_sigma_clearance.py" />
         <option value="$PROJECT_DIR$/test.py" />
-        <option value="$PROJECT_DIR$/robot_parameters.py" />
         <option value="$PROJECT_DIR$/main_statistics_square_varying_sigma_clearance2.py" />
-        <option value="$PROJECT_DIR$/main_peg_in_hole_dual_arm.py" />
         <option value="$PROJECT_DIR$/main_statistics_square.py" />
         <option value="$PROJECT_DIR$/get_objective_value.py" />
         <option value="$PROJECT_DIR$/../Arm_Uncertainty_Single/main_statistics_single_arm.py" />
+        <option value="$PROJECT_DIR$/main_peg_in_hole_dual_arm.py" />
+        <option value="$PROJECT_DIR$/main_sigma_vs_objective.py" />
+        <option value="$PROJECT_DIR$/robot_parameters.py" />
+        <option value="$PROJECT_DIR$/test_cylindrical_peg.py" />
+        <option value="$PROJECT_DIR$/main_statistics_cylinder.py" />
+        <option value="$PROJECT_DIR$/animate_assembly.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="450" />
-    <option name="y" value="207" />
-    <option name="width" value="977" />
-    <option name="height" value="961" />
+    <option name="x" value="851" />
+    <option name="y" value="482" />
+    <option name="width" value="1181" />
+    <option name="height" value="943" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -122,7 +262,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Arm_Uncertainty_Single" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunDashboard">
@@ -137,7 +277,28 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.main_peg_in_hole_single_arm">
+  <component name="RunManager" selected="Python.main_statistics_cylinder">
+    <configuration name="animate_assembly" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Arm_Uncertainty_Dual" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/animate_assembly.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="get_objective_value" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Arm_Uncertainty_Dual" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -180,7 +341,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="main_peg_in_hole_single_arm" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="main_statistics_cylinder" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Arm_Uncertainty_Dual" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -188,11 +349,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../Arm_Uncertainty_Single" />
-      <option name="IS_MODULE_SDK" value="false" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../Arm_Uncertainty_Single/main_peg_in_hole_single_arm.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main_statistics_cylinder.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -201,7 +362,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="main_single_arm_pegnhole" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="test_cylindrical_peg" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Arm_Uncertainty_Dual" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -209,32 +370,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../Arm_Uncertainty_Single" />
-      <option name="IS_MODULE_SDK" value="false" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../Arm_Uncertainty_Single/main_single_arm_pegnhole.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="main_statistics_single_arm" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Arm_Uncertainty_Dual" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../Arm_Uncertainty_Single" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../Arm_Uncertainty_Single/main_statistics_single_arm.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test_cylindrical_peg.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -244,17 +384,17 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.main_peg_in_hole_dual_arm" />
       <item itemvalue="Python.get_objective_value" />
-      <item itemvalue="Python.main_statistics_single_arm" />
-      <item itemvalue="Python.main_single_arm_pegnhole" />
-      <item itemvalue="Python.main_peg_in_hole_single_arm" />
+      <item itemvalue="Python.main_statistics_cylinder" />
+      <item itemvalue="Python.main_peg_in_hole_dual_arm" />
+      <item itemvalue="Python.test_cylindrical_peg" />
+      <item itemvalue="Python.animate_assembly" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.main_peg_in_hole_single_arm" />
-        <item itemvalue="Python.main_single_arm_pegnhole" />
-        <item itemvalue="Python.main_statistics_single_arm" />
+        <item itemvalue="Python.main_statistics_cylinder" />
+        <item itemvalue="Python.animate_assembly" />
+        <item itemvalue="Python.test_cylindrical_peg" />
         <item itemvalue="Python.get_objective_value" />
         <item itemvalue="Python.main_peg_in_hole_dual_arm" />
       </list>
@@ -275,14 +415,15 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="54" y="-11" width="1867" height="1092" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15526602" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.027687296" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3290461" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.28831726" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.244373" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.2094522" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.24382384" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -306,6 +447,10 @@
           <line>193</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/main_peg_in_hole_dual_arm.py</url>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
@@ -320,23 +465,23 @@
     <entry file="file://$PROJECT_DIR$/test2.py" />
     <entry file="file://$PROJECT_DIR$/test3.py" />
     <entry file="file://$PROJECT_DIR$/main_statistics_square_old.py" />
-    <entry file="file://$PROJECT_DIR$/main_statistics_cylinder.py">
+    <entry file="file://$PROJECT_DIR$/main_statistics_square_varying_sigma_clearance.py" />
+    <entry file="file://$PROJECT_DIR$/main_statistics_square.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="145" column="127" lean-forward="true" selection-start-line="145" selection-start-column="127" selection-end-line="145" selection-end-column="127" />
+        <state relative-caret-position="437">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/animate_assembly.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="107" column="26" lean-forward="true" selection-start-line="107" selection-start-column="26" selection-end-line="107" selection-end-column="26" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/../Arm_Uncertainty_Single/main_statistics_single_arm.py" />
+    <entry file="file://$PROJECT_DIR$/../Arm_Uncertainty_Single/robot_parameters_sl.py">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/../Arm_Uncertainty_Single/main_peg_in_hole_single_arm.py" />
+    <entry file="file://$PROJECT_DIR$/../Arm_Uncertainty_Single/main_single_arm_pegnhole.py" />
     <entry file="file://$PROJECT_DIR$/animate_assembly_square.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1127">
+        <state relative-caret-position="866">
           <caret line="243" column="4" selection-start-line="243" selection-start-column="4" selection-end-line="243" selection-end-column="4" />
           <folding>
             <element signature="e#0#31#0" expanded="true" />
@@ -345,84 +490,98 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main_statistics_varying_sigma_clearance.py">
+    <entry file="file://$PROJECT_DIR$/collision_lib.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1171">
-          <caret line="68" column="33" selection-start-line="68" selection-start-column="33" selection-end-line="68" selection-end-column="33" />
+        <state relative-caret-position="665">
+          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main_statistics_square_varying_sigma_clearance.py" />
-    <entry file="file://$PROJECT_DIR$/main_sigma_vs_objective.py">
+    <entry file="file://$PROJECT_DIR$/main_statistics_varying_sigma_clearance.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1197">
-          <caret line="63" column="45" lean-forward="true" selection-start-line="63" selection-start-column="45" selection-end-line="63" selection-end-column="45" />
+        <state relative-caret-position="-1441">
+          <caret line="68" column="33" selection-start-line="68" selection-start-column="33" selection-end-line="68" selection-end-column="33" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/main_statistics_square_varying_sigma_clearance2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="574">
+        <state relative-caret-position="649">
           <caret line="46" column="92" selection-start-line="46" selection-start-column="92" selection-end-line="46" selection-end-column="92" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/collision_lib.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main_statistics_square.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="31" selection-start-line="31" selection-end-line="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kinematic_utilities.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="574">
-          <caret line="176" selection-start-line="176" selection-end-line="176" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/robot_parameters.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="3" lean-forward="true" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Arm_Uncertainty_Single/main_statistics_single_arm.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="54" column="18" selection-start-line="54" selection-start-column="18" selection-end-line="54" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Arm_Uncertainty_Single/robot_parameters_sl.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Arm_Uncertainty_Single/main_peg_in_hole_single_arm.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Arm_Uncertainty_Single/main_single_arm_pegnhole.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/main_peg_in_hole_dual_arm.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="859">
-          <caret line="54" column="28" selection-start-line="54" selection-start-column="28" selection-end-line="54" selection-end-column="28" />
+        <state relative-caret-position="703">
+          <caret line="39" column="50" selection-start-line="39" selection-start-column="50" selection-end-line="39" selection-end-column="50" />
+          <folding>
+            <element signature="e#0#33#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main_select_peg_pose.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main_sigma_vs_objective.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1843">
+          <caret line="99" selection-start-line="99" selection-end-line="99" />
+          <folding>
+            <element signature="e#0#33#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_cylindrical_peg.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1083">
+          <caret line="60" column="64" selection-start-line="60" selection-start-column="64" selection-end-line="60" selection-end-column="64" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kinematic_utilities.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4541">
+          <caret line="243" column="4" selection-start-line="243" selection-start-column="4" selection-end-line="243" selection-end-column="4" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/robot_parameters.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="26" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main_statistics_cylinder.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-152">
+          <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/animate_assembly.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="44" column="23" selection-start-line="44" selection-start-column="19" selection-end-line="44" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

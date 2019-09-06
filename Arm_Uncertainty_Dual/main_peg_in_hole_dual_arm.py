@@ -126,20 +126,20 @@ print("Maximum error ik-pair: ", ik_pair_list[max_index])
 print("Minimum error: %2.6f" % min(assembly_err_list))
 print("Maximum error: %2.6f" % max(assembly_err_list))
 
-# Save data using pickle
-dbfile = open('dual_arm_assembly', 'ab')  # "ab" : append-binary
-
-save_dict = dict()
-save_dict["assembly_err_list"] = assembly_err_list
-save_dict["ik_pair_list"] = ik_pair_list
-save_dict["left_arm_sols"] = left_arm_sols
-save_dict["right_arm_sols"] = right_arm_sols
-save_dict["pd_l"] = pd_l
-save_dict["pd_r"] = pd_r
-save_dict["qd_l"] = qd_l
-save_dict["qd_r"] = qd_r
-
-pickle.dump(save_dict, dbfile)
-dbfile.close()
+# # Save data using pickle
+# dbfile = open('dual_arm_assembly', 'ab')  # "ab" : append-binary
+#
+# save_dict = dict()
+# save_dict["assembly_err_list"] = assembly_err_list
+# save_dict["ik_pair_list"] = ik_pair_list
+# save_dict["left_arm_sols"] = left_arm_sols
+# save_dict["right_arm_sols"] = right_arm_sols
+# save_dict["pd_l"] = pd_l
+# save_dict["pd_r"] = pd_r
+# save_dict["qd_l"] = qd_l
+# save_dict["qd_r"] = qd_r
+#
+# pickle.dump(save_dict, dbfile)
+# dbfile.close()
 
 

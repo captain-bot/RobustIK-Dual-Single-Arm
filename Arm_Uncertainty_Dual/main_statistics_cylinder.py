@@ -6,6 +6,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import time
 import animate_assembly
+from numpy.linalg import inv
 
 """
 This code takes in a pair of inverse kinematics solution one for left and another for right arm
@@ -58,12 +59,12 @@ def func_print_trans(T_leftarmmount2leftgripper, T_base2leftgripper, T_base2peg,
 # right_js = [0.278199, -0.710397, 0.709628, 1.20355, -2.08902, -1.33616, 3.04857]
 
 # # # Best pair2
-left_js = [-0.21943, -0.559425, -0.313603, 0.848202, -1.24768, 1.94008, 0.045175]
-right_js = [0.480029, -0.927794, 0.343986, 1.43293, -1.78396, -1.43877, 2.88986]
+# left_js = [-0.21943, -0.559425, -0.313603, 0.848202, -1.24768, 1.94008, 0.045175]
+# right_js = [0.480029, -0.927794, 0.343986, 1.43293, -1.78396, -1.43877, 2.88986]
 
 # worst pair2
-# left_js = [0.0158911, 0.214207, -2.13239, 0.793455, 0.471557, 1.73486, -0.446869]
-# right_js = [0.114549, -0.676611, 1.00135, 1.39467, -2.23933, -1.14559, 3.0349]
+left_js = [0.0158911, 0.214207, -2.13239, 0.793455, 0.471557, 1.73486, -0.446869]
+right_js = [0.114549, -0.676611, 1.00135, 1.39467, -2.23933, -1.14559, 3.0349]
 
 # Set joint error parameter
 err_sig = 0.0035
@@ -72,10 +73,10 @@ err_sig = 0.0035
 num_trial = 1
 
 # Visualize
-want_visual = False
+want_visual = True
 
 # Print outcome
-outcome_print = True
+outcome_print = False
 
 # Compute available clearance
 available_clearance = robot_parameters.rad_hole - robot_parameters.rad_peg
@@ -90,8 +91,8 @@ for _ in range(num_trial):
     ########################### PART 1 ########################################
     ################ Generate noisy solution from pure ones ###################
     ###########################################################################
-    # left_js_noisy, right_js_noisy = kinematic_utilities.get_noisy_solution_both(left_js, right_js, sig_val=err_sig)
-    left_js_noisy, right_js_noisy = left_js, right_js
+    left_js_noisy, right_js_noisy = kinematic_utilities.get_noisy_solution_both(left_js, right_js, sig_val=err_sig)
+    # left_js_noisy, right_js_noisy = left_js, right_js
 
     ###########################################################################
     ########################### PART 2 ########################################
@@ -102,10 +103,11 @@ for _ in range(num_trial):
     T_leftarmmount2leftgripper[:3, 3] += correction_length * T_leftarmmount2leftgripper[:3, 2]
     T_base2leftgripper = np.dot(robot_parameters.T_base2leftarmmount, T_leftarmmount2leftgripper)
 
-
     # Compute peg frame wrt base frame
     T_base2peg = T_base2leftgripper.copy()
     T_base2peg[:3, 3] += robot_parameters.l_peg*T_base2peg[:3, 2]
+    print("T_base2peg: ")
+    print(T_base2peg)
 
     ###########################################################################
     ########################### PART 3 ########################################
@@ -119,6 +121,11 @@ for _ in range(num_trial):
     # Compute peg frame wrt base frame
     T_base2hole = T_base2rightgripper.copy()
     T_base2hole[:3, 3] += robot_parameters.l_hole*T_base2hole[:3, 2]
+    print("T_base2hole: ")
+    print(T_base2hole)
+    #
+    # print("Relative pose of hole wrt pe frame: ")
+    # print(np.dot(inv(T_base2peg), T_base2hole))
 
     ############################################################################
     ############################ PART 4 ########################################
@@ -148,7 +155,7 @@ for _ in range(num_trial):
     # Check success
     required_radial_clearance = kinematic_utilities.norm(P_hole2pegfinal[:2])
     print("Difference between reqd. and available clearance: %2.4f" % (required_radial_clearance - available_clearance))
-    if required_radial_clearance - available_clearance > 0.002:
+    if required_radial_clearance - available_clearance > 0.001:
         failure_count += 1
         # visualize_all(T_base2leftgripper, T_base2rightgripper, T_base2peg, T_base2hole, dist, P_hole2pegfinal)
         print("Peg and hole are in collision")

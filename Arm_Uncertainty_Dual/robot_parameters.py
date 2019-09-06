@@ -11,8 +11,8 @@ This file consists of the following parameters
 # Length of hole and peg
 l_peg, l_hole = 0.050, 0.050
 
-# Radius of Peg and Hole
-rad_peg, rad_hole = 0.020, 0.025
+# If using cylindrical peg: Radius of Peg and Hole
+rad_peg, rad_hole = 0.0205, 0.0250
 
 # If using square peg hole pair
 hole_width, peg_width = 0.052, 0.040

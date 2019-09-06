@@ -5,16 +5,26 @@ import matplotlib.pyplot as plt
 
 """
 Given a IK-pair, this piece of code computes objective value (P + \gamma O) for
-a particular c value, where c = (k + \sigma)**2.
+a particular c value, where c = (k * \sigma)**2.
 """
 
-# User given IK-pair
-# Robust IK pair
-robust_js_l = [-0.361758, 0.320735, -2.99435, 0.572053, 1.27946, 1.93275, -0.493638]
-robust_js_r = [0.493515, 0.550733, 2.88105, 1.20904, -1.36702, 1.55162, 0.838913]
-# Worst IK pair
-worst_js_l = [-0.120334, 0.0840508, -1.98086, 0.50692, 0.323614, 1.80815, -0.346687]
-worst_js_r = [0.278199, -0.710397, 0.709628, 1.20355, -2.08902, -1.33616, 3.04857]
+# # User given IK-pair
+# # Robust IK pair
+# robust_js_l = [-0.361758, 0.320735, -2.99435, 0.572053, 1.27946, 1.93275, -0.493638]
+# robust_js_r = [0.493515, 0.550733, 2.88105, 1.20904, -1.36702, 1.55162, 0.838913]
+#
+# # Worst IK pair
+# worst_js_l = [-0.120334, 0.0840508, -1.98086, 0.50692, 0.323614, 1.80815, -0.346687]
+# worst_js_r = [0.278199, -0.710397, 0.709628, 1.20355, -2.08902, -1.33616, 3.04857]
+
+# Used for cylindrical peg and hole
+# Best pair2
+robust_js_l = [-0.21943, -0.559425, -0.313603, 0.848202, -1.24768, 1.94008, 0.045175]
+robust_js_r = [0.480029, -0.927794, 0.343986, 1.43293, -1.78396, -1.43877, 2.88986]
+
+# worst pair2
+worst_js_l = [0.0158911, 0.214207, -2.13239, 0.793455, 0.471557, 1.73486, -0.446869]
+worst_js_r = [0.114549, -0.676611, 1.00135, 1.39467, -2.23933, -1.14559, 3.0349]
 
 wr_c = np.vstack((wr_l, wr_r))
 qr_c = np.vstack((qr_l, qr_r))
@@ -82,7 +92,7 @@ plt.plot(sv_list, err_total_robust, linestyle="--", marker="o", color="b", label
 plt.plot(sv_list, err_total_worst, linestyle="-", marker="o", color="r", label=r"$\Theta^-$")
 plt.xlabel(r"$\sigma$ [radian]")
 plt.ylabel(r"$\mathbb{P} + \gamma \mathbb{O}$ = Objective value [meters]")
-plt.title(r"$\sigma$ Vs. Objective-value")
+# plt.title(r"$\sigma$ Vs. Objective-value")
 plt.legend()
 plt.axis("auto")
 plt.grid()
